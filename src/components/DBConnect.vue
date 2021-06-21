@@ -15,7 +15,7 @@ export default {
     connect(){
       console.log("Button Pressed")
       axios
-        .get('http://localhost:8000/README.md', {
+        .get('http://localhost:8000/Test.sqlite', {
           headers: {"Access-Control-Allow-Origin": "*"}
         })
         .then(response => (this.info = response))
