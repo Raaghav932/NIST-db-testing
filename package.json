@@ -7,12 +7,16 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "aws-sdk": "^2.932.0",
     "core-js": "^3.6.5",
+    "node-pre-gyp": "^0.17.0",
+    "sqlite3": "^5.0.2",
     "vue": "^3.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0"
+    "@vue/compiler-sfc": "^3.0.0",
+    "webpack-node-externals": "^3.0.0"
   }
 }
